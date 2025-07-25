@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for summer-wind-6770 on 2025-07-24T22:43:17-04:00
+# fly.toml app configuration file generated for flock on 2025-07-24T22:52:15-04:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'summer-wind-6770'
+app = 'flock'
 primary_region = 'iad'
 kill_signal = 'SIGTERM'
 
@@ -13,7 +13,7 @@ kill_signal = 'SIGTERM'
   release_command = '/app/bin/migrate'
 
 [env]
-  PHX_HOST = 'summer-wind-6770.fly.dev'
+  PHX_HOST = 'flock.fly.dev'
   PORT = '8080'
 
 [http_service]
